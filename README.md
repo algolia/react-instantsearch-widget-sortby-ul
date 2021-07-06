@@ -1,15 +1,9 @@
-# sort-by
-
-_This project was generated with [create-instantsearch-app](https://github.com/algolia/create-instantsearch-app) by [Algolia](https://algolia.com)._
-
-InstantSearch widget that makes a sort by
-
 ## Install
 
 ```bash
-npm install @eunjae-lee/sort-by
+npm install @algolia/react-instantsearch-widget-sortby-ul
 # or
-yarn add @eunjae-lee/sort-by
+yarn add @algolia/react-instantsearch-widget-sortby-ul
 ```
 
 ## Widget
@@ -19,7 +13,7 @@ yarn add @eunjae-lee/sort-by
 ```jsx
 import instantsearch from 'instantsearch.js';
 import algoliasearch from 'algoliasearch/lite';
-import { SortBy } from '@eunjae-lee/sort-by';
+import { SortBy } from '@algolia/react-instantsearch-widget-sortby-ul';
 
 const searchClient = algoliasearch('appId', 'apiKey');
 
@@ -35,7 +29,7 @@ const App = () => (
 ### Usage
 
 ```jsx
-import { connectSortBy } from '@eunjae-lee/sort-by';
+import { connectSortBy } from '@algolia/react-instantsearch-widget-sortby-ul';
 
 // 1. Create a render function
 const RenderSortBy = (renderOptions, isFirstRender) => {
@@ -43,9 +37,7 @@ const RenderSortBy = (renderOptions, isFirstRender) => {
 };
 
 // 2. Create the custom widget
-const CustomSortBy = connectSortBy(
-  RenderSortBy
-);
+const CustomSortBy = connectSortBy(RenderSortBy);
 
 // 3. Instantiate
 const App = () => (

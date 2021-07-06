@@ -1,12 +1,12 @@
 {
-  "name": "@eunjae-lee/react-sort-by",
+  "name": "@algolia/react-instantsearch-widget-sortby-ul",
   "version": "1.0.0",
   "description": "InstantSearch widget that makes a sort-by",
   "keywords": [
     "instantsearch-widget",
     "instantsearch",
     "react-instantsearch",
-    "react-instantsearch-widget-sort-by",
+    "react-instantsearch-widget-sortby-ul",
     "widget",
     "connector",
     "algolia"
