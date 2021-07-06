@@ -1,3 +1,9 @@
+[![MIT](https://img.shields.io/npm/l/@algolia/react-instantsearch-widget-sortby-ul)](./LICENSE.md) [![NPM version](http://img.shields.io/npm/v/@algolia/react-instantsearch-widget-sortby-ul.svg)](https://npmjs.org/package/@algolia/instantsearch-widget-sortby-ul)
+
+## Demo
+
+[Demo](https://codesandbox.io/s/github/algolia/react-instantsearch-widget-sortby-ul?file=/example/index.tsx) on CodeSandbox.
+
 ## Install
 
 ```bash
