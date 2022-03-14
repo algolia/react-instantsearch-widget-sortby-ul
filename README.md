@@ -2,7 +2,9 @@
 
 ## Demo
 
-[Demo](https://codesandbox.io/s/github/algolia/react-instantsearch-widget-sortby-ul?file=/example/index.tsx) on CodeSandbox.
+<p align="left"><img src="capture.gif" alt="A capture of the React InstantSearch SortByUL widget" /></p>
+
+[Preview](https://codesandbox.io/s/github/algolia/react-instantsearch-widget-sortby-ul?file=/example/index.tsx) on CodeSandbox.
 
 ## Install
 
